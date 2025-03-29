@@ -6,42 +6,11 @@
   <link href="./output.css" rel="stylesheet">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rowdies:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+    :root{
+    --signupbt1:"#083F9B"
+}
     </style>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: "#db373d",
-                signup1: "#083F9B",
-                signup2: "#7F56D9",
-                coaching: "#0E38CD",
-                music1: "#2E08C7",
-                music2: "#7E08C7",
-                course: "#4883FF",
-                motion: "#324361",
-                featured1: "#D9ECFF",
-                featured2: "#F0F3FF",
-                why1: "#739FE8",
-                why2: "#4F18CA",
-                subscribe1: "#E441FF",
-                subscribe2: "#1901F8",
-                subscribe3: "#00B3FF",
-                testimonials: "#DBEDFF",
-                footer1: "#477AE3",
-                footer2: "#931BBD",
-                footer3: "#0351AE",
-                footer4: "#A542C8",
-              },
-              fontFamily: {
-                saira: ["saira", "sans-serif"],
-                righteous: ["Righteous", "sans-serif"],
-                rowdies: ["Rowdies", "sans-serif"],
-              },
-            },
-          },
-        };
-      </script>
+    <link href="./index.css" rel="stylesheet">
 </head>
 <body>
     <nav class="flex sm:justify-around mt-4 ">
@@ -66,7 +35,7 @@
           </div>
           <div class="flex gap-7 font-Saira">
             <button class="py-2 w-16" type="button">Login</button>
-            <button class="rounded-md py-2 w-28 bg-gradient-to-r from-violet-900 to-violet-500 text-white"
+            <button class="rounded-md py-2 w-28 bg-gradient-to-r from-[#083F9B] to-violet-500 text-white"
               type="button">Signup</button>
           </div>
         </div>
